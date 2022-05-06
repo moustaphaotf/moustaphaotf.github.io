@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../images/favicons/video.png" type="image/x-icon">
+
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <link rel="stylesheet" href="../css/all.css">
+    <link rel="stylesheet" href="../css/font-awesome.min.css">
+    <link rel="stylesheet" href="../css/common.css">
+    <title>Streaming de vidéos et audios</title>
+</head>
+<body>
+    <header class="container-fluid fixed-top">
+        <nav class="navbar navbar-expand-md">
+						<div class="navbar-brand"><img src="../images/logo.png" width="50" alt=""></div>
+            <!-- button d'toggle du menu -->
+            <button class="align-self-start btn navbar-toggler" data-bs-target="#navigationPanel" data-bs-toggle="collapse" aria-expanded="false"><i class="fa fa-bars"></i></button>
+
+            <!-- menu de navigation -->
+            <ul class="nav navbar-nav collapse navbar-collapse nav-pills justify-content-md-center flex-xs-nowrap align-items-start" id="navigationPanel">
+                <li class="nav-item"><a href="../index.html" class="nav-link"><i class="fa fa-home"></i> Accueil</a></li>
+                <li class="nav-item"><a href="actualites.html" class="nav-link"><i class="fa fa-newspaper-o"></i> Actualités</a></li>
+                <li class="nav-item">
+                    <div class="dropdown">
+                        <button class="btn dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false" aria-haspopup="true"><i class="fa fa-calculator"></i> Etudes</button>
+                        <div class="dropdown-menu megamenu">
+                            <a href="vie_estudiantine.html" class="dropdown-item"><i class="fa fa-group"></i> Vie estudiantine</a>
+                            <a href="etudes_experiences.html" class="dropdown-item"><i class="fa fa-user-graduate"></i> Etudes et expériences</a>
+                            <a href="progression.html" class="dropdown-item"><i class="fa fa-accessible-icon"></i> Progression</a>
+                        </div>
+                    </div>
+                    
+                </li>
+                <li class="nav-item"><a href="galerie.html" class="nav-link"><i class="fa fa-photo"></i> Galérie</a></li>
+                <li class="nav-item"><a href="audio_visuel.html" class="nav-link active"><i class="fa fa-video-camera"></i> Streaming</a></li>
+                <li class="nav-item"><a href="telecharger.html" class="nav-link"><i class="fa fa-download"></i> Téléchargements</a></li>
+                <li class="nav-item"><a href="formulaire.html" class="nav-link"><i class="fa fa-wpforms"></i> Formulaire</a></li>
+                <li class="nav-item"><a href="liens.html" class="nav-link"><i class="fa fa-external-link"></i> Liens externes</a></li>
+                <li class="nav-item"><a href="contact.html" class="nav-link"><i class="fa fa-phone"></i> Me contacter</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="container-fluid">
+			<h1>Streaming</h1>
+        <!-- Navigation entre les catégories -->
+        <div class="d-flex">
+            <button aria-haspopup="true" aria-expanded="true" role="button" data-bs-target="#menu" data-bs-toggle="collapse" class="btn btn-menu"><i class="fa fa-bars"></i></button>
+            <ul class="menu nav navbar-nav collapse" id="menu">
+                <li class="nav-item"><a class="nav-link" href="#tutos"><i class="fa fa-angle-right"></i> Tutoriels et astuces</a></li>
+                <li class="nav-item"><a class="nav-link" href="#videos"><i class="fa fa-angle-right"></i> Vidéos</a></li>
+                <li class="nav-item"><a class="nav-link" href="#audios"><i class="fa fa-angle-right"></i> Audio</a></li>
+            </ul>
+        </div>
+        <div class="videos">
+					<div class="container-fluid">
+						<!-- Catégorie : Turoriels -->
+						<div class="row" id="tutos">
+							<h2><i class="fa fa-link"></i> Quelques tutoriels et astuces</h2>
+							<div class="col-lg-4 col-md-6">
+								<div class="card">
+									<video controls height="225" poster="../multimedia/tutos/posters/mlearning intro.png">
+											<source src="../multimedia/tutos/mlearning intro.mp4" type="video/mp4">
+									</video>
+									<div class="card-body">
+											<p class="card-text">Introduction au Machine Learning</p>
+									</div>
+								</div> 
+							</div>
+									
+							<div class="col-lg-4 col-md-6">
+								<div class="card">
+									<video controls height="225" poster="../multimedia/tutos/posters/json.png">
+											<source src="../multimedia/tutos/json in just 10 minutes.mp4" type="video/mp4">
+									</video>
+									<div class="card-body">
+											<p class="card-text">Learn JSON in just 10 min</p>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-4 col-md-6">
+								<div class="card">
+									<video controls height="225">
+											<source src="../multimedia/tutos/labbook presentation.mp4" type="video/mp4">
+									</video>
+									<div class="card-body">
+											<p class="card-text">Découvrez LabBook 3.0, le logiciel de gestion de l'information du laboratoire</p>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-4 col-md-6">
+								<div class="card">
+									<video controls height="225">
+											<source src="../multimedia/tutos/php intro.mp4" type="video/mp4">
+									</video>
+									<div class="card-body">
+											<p class="card-text">Apprenez à programmer en PHP Chapitre 1 introduction</p>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-4 col-md-6">
+								<div class="card">
+									<video controls height="225">
+											<source src="../multimedia/tutos/The Secret To Success - an eye opening story.mp4" type="video/mp4">
+									</video>
+									<div class="card-body">
+											<p class="card-text">The secret to success</p>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-4 col-md-6">
+								<div class="card">
+									<video controls height="225">
+											<source src="../multimedia/tutos/YOU WILL NEVER BE LAZY AFTER WATCHING THIS _ Buddhist story on laziness __low.mp4" type="video/mp4">
+									</video>
+									<div class="card-body">
+											<p class="card-text">You will never be lazy after watching this</p>
+									</div>
+								</div>
+							</div>
+						</div> <!-- tutoriels -->
+
+						<!-- Catégorie : vidéos -->
+						<div class="row" id="videos">
+							<h2><i class="fa fa-link"></i> Nos vidéos les plus pertinentes</h2>
+							<div class="col-lg-4 col-md-6">
+								<div class="card">
+										<video controls height="225">
+												<source src="../multimedia/videos/Davido_-_Risky_(Official_Video)_ft._Popcaan(480p).mp4" type="video/mp4">
+										</video>
+										<div class="card-body">
+												<p class="card-text">Song : Risky<br>Artiste : Davido ft Popcaan</p>
+										</div>
+								</div> 
+							</div>
+									
+							<div class="col-lg-4 col-md-6">
+								<div class="card">
+										<video controls height="225">
+												<source src="../multimedia/videos/Diamond_Platnumz_-_Baba_Lao_(Official_Music_Video)(360p).mp4" type="video/mp4">
+										</video>
+										<div class="card-body">
+												<p class="card-text">Song : Baba Lao<br> Artiste : Diamond Platnumz</p>
+										</div>
+								</div>
+							</div>
+							<div class="col-lg-4 col-md-6">
+								<div class="card">
+										<video controls height="225">
+												<source src="../multimedia/videos/Diamond_Platnumz_Ft_Teni_-_Sound_(Official_Music_Video)(360p).mp4" type="video/mp4">
+										</video>
+										<div class="card-body">
+												<p class="card-text">Song : Sound<br>Artiste : Diamond Platnumz ft Teni</p>
+										</div>
+								</div>
+							</div>
+							<div class="col-lg-4 col-md-6">
+								<div class="card">
+										<video controls height="225">
+												<source src="../multimedia/videos/Rihanna - Diamonds (Lyrics).mp4" type="video/mp4">
+										</video>
+										<div class="card-body">
+												<p class="card-text">Song : Diamonds<br>Artiste : Rihanna</p>
+										</div>
+								</div>
+							</div>
+							<div class="col-lg-4 col-md-6">
+								<div class="card">
+										<video controls height="225">
+												<source src="../multimedia/videos/Rihanna - Love On The Brain.mp4" type="video/mp4">
+										</video>
+										<div class="card-body">
+												<p class="card-text">Song : Love on the brain<br>Artiste : Rihanna</p>
+										</div>
+								</div>
+							</div>
+							<div class="col-lg-4 col-md-6">
+								<div class="card">
+										<video controls height="225">
+												<source src="../multimedia/videos/Rihanna - Stay ft. Mikky Ekko.mp4" type="video/mp4">
+										</video>
+										<div class="card-body">
+												<p class="card-text">Song : Stay<br>Artiste : Rihanna ft Mikki Ekko</p>
+										</div>
+								</div>
+							</div>
+						</div>
+
+						<!-- Catégorie : audios -->
+						<div class="row" id="audios">
+							<h2><i class="fa fa-link"></i> Passez du bon temps avec notre sélection de musique relaxantes</h2>
+							<div class="col-md-4">
+								<div class="card">
+									<div class="row">
+										<img src="../multimedia/audios/images/elle me demande.jpg" height="200" alt="">
+										<audio controls>
+											<source src="../multimedia/audios/DADJU_-_Elle_me_demande_(Official_video)(128k).mp3" type="audio/mp3">
+										</audio>
+									</div>
+									<div class="card-body">
+										<p class="card-text">
+											Titre : <strong>Elle me demande</strong><br>
+											Artiste : <strong>Dadju</strong>
+										</p>
+									</div>
+								</div> 
+							</div>
+
+							<div class="col-md-4">
+								<div class="card">
+									<div class="row">
+										<img src="../multimedia/audios/images/arme de poing.jpg" height="200" alt="">
+										<audio controls>
+											<source src="../multimedia/audios/Arme de poing.mp3" type="audio/mp3">
+										</audio>
+									</div>
+									<div class="card-body">
+										<p class="card-text">
+											Titre : <strong>Arme de poing</strong><br>
+											Artiste : <strong>Ninho</strong>
+										</p>
+									</div>
+								</div> 
+							</div>
+							
+							<div class="col-md-4">
+								<div class="card">
+									<div class="row">
+										<img src="../multimedia/audios/images/cetait le rap.jpg" height="200" alt="">
+										<audio controls>
+											<source src="../multimedia/audios/C'était le rap.mp3" type="audio/mp3">
+										</audio>
+									</div>
+									<div class="card-body">
+										<p class="card-text">
+											Titre : <strong>C'était le rap</strong><br>
+											Artiste : <strong>Ninho</strong>
+										</p>
+									</div>
+								</div> 
+							</div>
+							
+							<div class="col-md-4">
+								<div class="card">
+									<div class="row">
+										<img src="../multimedia/audios/images/young-thug-x-chris-brown.jpg" height="200" alt="">
+										<audio controls>
+											<source src="../multimedia/audios/Chris_Brown_-_Go_Crazy_(Remix)_(Official_Video)_ft._Young_Thug,_Future,_Lil_Durk,_Latto(720p).mp3" type="audio/mp3">
+										</audio>
+									</div>
+									<div class="card-body">
+										<p class="card-text">
+											Titre : <strong>Go crazy</strong><br>
+											Artiste : <strong>Christ Brown ft Young Thug</strong>
+										</p>
+									</div>
+								</div> 
+							</div>
+								
+							<div class="col-md-4">
+								<div class="card">
+									<div class="row">
+										<img src="../multimedia/audios/images/apocalypse.jpg" height="200" alt="">
+										<audio controls>
+											<source src="../multimedia/audios/Apocalypse (feat. Freeze Corleone).mp3" type="audio/mp3">
+										</audio>
+									</div>
+									<div class="card-body">
+										<p class="card-text">
+											Titre : <strong>Apocalypse</strong><br>
+											Artiste : <strong>Kaaris & Kalash Criminel ft Freeze Corleone</strong>
+										</p>
+									</div>
+								</div> 
+							</div>
+							
+							<div class="col-md-4">
+								<div class="card">
+									<div class="row">
+										<img src="../multimedia/audios/images/encore.jpg" height="200" alt="">
+										<audio controls>
+											<source src="../multimedia/audios/Koba_lad-encore_feat_ninho.mp3" type="audio/mp3">
+										</audio>
+									</div>
+									<div class="card-body">
+										<p class="card-text">
+											Titre : <strong>Encore</strong><br>
+											Artiste : <strong>Koba Lad ft Ninho</strong>
+										</p>
+									</div>
+								</div> 
+							</div>
+							
+						</div>
+        	</div>
+				</div>
+    </main>
+		<footer class="container-fluid">
+			<div class="container">
+					<div class="d-flex justify-content-center">
+							<a target="_blank" href="http://facebook.com/moustaphaotf" class="btn"><i class="fa fa-facebook"></i></a>
+							<a target="_blank" href="http://wa.me/qr/R5YHMIT6R3DB8O1" class="btn"><i class="fa fa-whatsapp"></i></a>
+							<a target="_blank" href="http://twitter.com/sumptring" class="btn"><i class="fa fa-twitter"></i></a>
+					</div>
+					<div class="d-flex justify-content-center align-items center">
+							<p><small>Mamadou Moustapha Diallo &copy; Avril 2022</small></p>
+					</div>
+			</div>
+		</footer>
+    <div class="goto-top"><a href="#" class="btn" role="button"><i class="fa fa-angle-double-up"></i></a></div>
+    
+    <script src="../js/jquery-3.6.0.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/script.js"></script>
+</body>
+</html>

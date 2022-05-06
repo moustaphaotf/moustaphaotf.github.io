@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../images/favicons/images.png" type="image/x-icon">
+    
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <link rel="stylesheet" href="../css/all.css">
+    <link rel="stylesheet" href="../css/font-awesome.min.css">
+    <link rel="stylesheet" href="../css/common.css">
+    <title>Ma galérie photo</title>
+</head>
+<body>
+  <header class="container-fluid fixed-top">
+    <nav class="navbar navbar-expand-md">
+        <div class="navbar-brand"><img src="../images/logo.png" width="50" alt=""></div>
+        <!-- button d'toggle du menu -->
+        <button class="align-self-start btn navbar-toggler" data-bs-target="#navigationPanel" data-bs-toggle="collapse" aria-expanded="false"><i class="fa fa-bars"></i></button>
+
+        <!-- menu de navigation -->
+        <ul class="nav navbar-nav collapse navbar-collapse nav-pills justify-content-md-center flex-xs-nowrap align-items-start" id="navigationPanel">
+            <li class="nav-item"><a href="../index.html" class="nav-link"><i class="fa fa-home"></i> Accueil</a></li>
+            <li class="nav-item"><a href="actualites.html" class="nav-link"><i class="fa fa-newspaper-o"></i> Actualités</a></li>
+            <li class="nav-item">
+                <div class="dropdown">
+                    <button class="btn dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false" aria-haspopup="true"><i class="fa fa-calculator"></i> Etudes</button>
+                    <div class="dropdown-menu megamenu">
+                        <a href="vie_estudiantine.html" class="dropdown-item"><i class="fa fa-group"></i> Vie estudiantine</a>
+                        <a href="etudes_experiences.html" class="dropdown-item"><i class="fa fa-user-graduate"></i> Etudes et expériences</a>
+                        <a href="progression.html" class="dropdown-item"><i class="fa fa-accessible-icon"></i> Progression</a>
+                    </div>
+                </div>
+                
+            </li>
+            <li class="nav-item"><a href="galerie.html" class="nav-link active"><i class="fa fa-photo"></i> Galérie</a></li>
+            <li class="nav-item"><a href="audio_visuel.html" class="nav-link"><i class="fa fa-video-camera"></i> Streaming</a></li>
+            <li class="nav-item"><a href="telecharger.html" class="nav-link"><i class="fa fa-download"></i> Téléchargements</a></li>
+            <li class="nav-item"><a href="formulaire.html" class="nav-link"><i class="fa fa-wpforms"></i> Formulaire</a></li>
+            <li class="nav-item"><a href="liens.html" class="nav-link"><i class="fa fa-external-link"></i> Liens externes</a></li>
+            <li class="nav-item"><a href="contact.html" class="nav-link"><i class="fa fa-phone"></i> Me contacter</a></li>
+        </ul>
+    </nav>
+  </header>
+  <main class="container-fluid">
+      <h1>Ma galérie</h1>
+      <!-- On prépare la fenêtre d'affichage des image en plein écran -->
+      <div class="modal fade" tabindex="-1" id="fenetreAffichage">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h4 class="modal-title "></h4>
+              <a class="btn btn-close" data-bs-dismiss="modal"></a>
+            </div>
+            <div class="modal-body"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="d-flex">
+        <button class="btn btn-menu" role="button" data-bs-toggle="collapse" data-bs-target="#menu"><i class="fa fa-bars"></i></button>
+        <ul class="nav navbar-nav menu collapse" id="menu">
+          <li class="nav-item"><a href="#jpeg" class="nav-link"><i class="fa fa-angle-right"></i> Photos</a></li>
+          <li class="nav-item"><a href="#png" class="nav-link"><i class="fa fa-angle-right"></i> Illustrations</a></li>
+          <li class="nav-item"><a href="#gif" class="nav-link"><i class="fa fa-angle-right"></i> Images animées</a></li>
+        </ul>
+      </div>
+      <div class="album">
+          <div class="container-fluid">
+            <div class="row" id="jpeg">
+              <h2><i class="fa fa-link"></i> Des pauses mémorables</h2>
+              <div class="col-sm-6 col-md-4 col-lg-3">
+                <div class="card">
+                  <a class="btn" target="_blank"><img src="../images/galerie/copains.jpeg" alt="Mes amis et moi" width="95%" height="225" class="card-img"></a>
+                  <div class="card-body">
+                    <p class="card-text">Notre compagnie détermine qui nous sommes.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4 col-lg-3">
+                <div class="card">
+                  <a class="btn"  target="_blank"><img src="../images/galerie/heure de travail.jpg" alt="Mamadou Moustapha Diallo" width="95%" height="225" class="card-img"></a>
+                  <div class="card-body">
+                    <p class="card-text">Travailler avec entrain et tact, c'est cela la clé du succès</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4 col-lg-3">
+                <div class="card">
+                  <a class="btn" target="_blank"><img src="../images//galerie/cleaning_cyber.jpg" alt="Mamadou Moustapha Diallo" width="95%" height="225" class="card-img"></a>
+                  <div class="card-body">
+                    <p class="card-text">Le centre informatique de l'IST de Mamou vous ouvre ses portes.</p>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="col-sm-6 col-md-4 col-lg-3">
+                <div class="card">
+                  <a class="btn" target="_blank"><img src="../images/galerie/quartet.jpg" alt="" height="225" class="card-img"></a>
+                  <div class="card-body">
+                    <p class="card-text">Quartet de choc, soudés par les idéaux communs</p>
+                  </div>
+                </div>
+              </div>
+                
+            </div>
+            <div class="row" id="png">
+              <h2><i class="fa fa-link"></i> Des illustrations de qualité</h2>
+              <div class="col-sm-6 col-md-4 col-lg-3">
+                <div class="card">
+                  <a class="btn" target="_blank"><img src="../images/galerie/mugiwara.png" alt="L'équipage de Luffy au Chappeau de Paille dans l'anime One Piece" width="95%" height="225" class="card-img"></a>
+                  <div class="card-body">
+                    <p class="card-text">L'équipage au grand complet du rédoutable Luffy au chapeau de paille.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4 col-lg-3">
+                <div class="card">
+                  <a class="btn" target="_blank"><img src="../images/galerie/main.png" alt="L'équipage de Luffy au Chappeau de Paille dans l'anime One Piece" width="95%" height="225" class="card-img"></a>
+                  <div class="card-body">
+                    <p class="card-text">Les fruits du logo making, les talents d'un amateur.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4 col-lg-3">
+                <div class="card">
+                  <a class="btn" target="_blank"><img src="../images/galerie/zebra.png" alt="Un animal à rayures très remarquées" width="95%" height="225" class="card-img"></a>
+                  <div class="card-body">
+                    <p class="card-text">Un animal à rayures très remarquées</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4 col-lg-3">
+                <div class="card">
+                  <a class="btn" target="_blank"><img src="../images/galerie/skycraper.png" alt="Gratte-ciel" width="95%" height="225" class="card-img"></a>
+                  <div class="card-body">
+                    <p class="card-text">L'image d'un gratte-ciel</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row" id="gif">
+              <h2><i class="fa fa-link"></i> Des animations un peu originales</h2>
+              <div class="col-sm-6 col-md-4 col-lg-3">
+                <div class="card">
+                  <a class="btn" target="_blank"><img src="../images/galerie/oiseau_regard.gif" alt="Le regard curieux d'un oiseau dans une grotte" width="95%" height="225" class="card-img"></a>
+                  <div class="card-body">
+                    <p class="card-text">Le regard curieux d'un oiseau dans une grotte</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4 col-lg-3">
+                <div class="card">
+                  <a class="btn" target="_blank"><img src="../images/galerie/riviere.gif" alt="Une rivière qui coule" width="95%" height="225" class="card-img"></a>
+                  <div class="card-body">
+                    <p class="card-text">Une rivière qui coule</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4 col-lg-3">
+                <div class="card">
+                  <a class="btn" target="_blank"><img src="../images/galerie/globe.gif" alt="Le globe terrestre" width="95%" height="225" class="card-img"></a>
+                  <div class="card-body">
+                    <p class="card-text">Le globe terrestre</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4 col-lg-3">
+                <div class="card">
+                  <a class="btn" target="_blank"><img src="../images/galerie/packman1.gif" alt="Jeu 2D Pack Man" width="95%" height="225" class="card-img"></a>
+                  <div class="card-body">
+                    <p class="card-text">Pack Man, un jeu 2D très amusant</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+  </main>
+  <footer class="container-fluid">
+    <div class="container">
+        <div class="d-flex justify-content-center">
+            <a target="_blank" href="http://facebook.com/moustaphaotf" class="btn"><i class="fa fa-facebook"></i></a>
+            <a target="_blank" href="http://wa.me/qr/R5YHMIT6R3DB8O1" class="btn"><i class="fa fa-whatsapp"></i></a>
+            <a target="_blank" href="http://twitter.com/sumptring" class="btn"><i class="fa fa-twitter"></i></a>
+        </div>
+        <div class="d-flex justify-content-center align-items center">
+            <p><small>Mamadou Moustapha Diallo &copy; Avril 2022</small></p>
+        </div>
+    </div>
+  </footer> 
+  <div class="goto-top"><a href="#" class="btn" role="button"><i class="fa fa-angle-double-up"></i></a></div>
+  
+  <script src="../js/jquery-3.6.0.js"></script>
+  <script src="../js/bootstrap.bundle.min.js"></script>
+  <script src="../js/script.js"></script>
+</body>
+</html>

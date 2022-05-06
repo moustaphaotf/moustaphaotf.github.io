@@ -1,0 +1,280 @@
+<<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../images/favicons/news.png" type="image/x-icon">
+
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <link rel="stylesheet" href="../css/all.css">
+    <link rel="stylesheet" href="../css/font-awesome.min.css">
+    <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="../css/actualites.css">
+    <title>Actualités du moment</title>
+</head>
+<body>
+    <header class="container-fluid fixed-top">
+        <nav class="navbar navbar-expand-md">
+            <div class="navbar-brand"><div><img src="../images/logo.png" width="50" alt=""></div></div>
+            <!-- button d'toggle du menu -->
+            <button class="align-self-start btn navbar-toggler" data-bs-target="#navigationPanel" data-bs-toggle="collapse" aria-expanded="false"><i class="fa fa-bars"></i></button>
+
+            <!-- menu de navigation -->
+            <ul class="nav navbar-nav collapse navbar-collapse nav-pills justify-content-md-center flex-xs-nowrap align-items-start" id="navigationPanel">
+                <li class="nav-item"><a href="../index.html" class="nav-link"><i class="fa fa-home"></i> Accueil</a></li>
+                <li class="nav-item"><a href="actualites.html" class="nav-link active"><i class="fa fa-newspaper-o"></i> Actualités</a></li>
+                <li class="nav-item">
+                    <div class="dropdown">
+                        <button class="btn dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false" aria-haspopup="true"><i class="fa fa-calculator"></i> Etudes</button>
+                        <div class="dropdown-menu megamenu">
+                            <a href="vie_estudiantine.html" class="dropdown-item"><i class="fa fa-group"></i> Vie estudiantine</a>
+                            <a href="etudes_experiences.html" class="dropdown-item"><i class="fa fa-user-graduate"></i> Etudes et expériences</a>
+                            <a href="progression.html" class="dropdown-item"><i class="fa fa-accessible-icon"></i> Progression</a>
+                        </div>
+                    </div>
+                    
+                </li>
+                <li class="nav-item"><a href="galerie.html" class="nav-link"><i class="fa fa-photo"></i> Galérie</a></li>
+                <li class="nav-item"><a href="audio_visuel.html" class="nav-link"><i class="fa fa-video-camera"></i> Streaming</a></li>
+                <li class="nav-item"><a href="telecharger.html" class="nav-link"><i class="fa fa-download"></i> Téléchargements</a></li>
+                <li class="nav-item"><a href="formulaire.html" class="nav-link"><i class="fa fa-wpforms"></i> Formulaire</a></li>
+                <li class="nav-item"><a href="liens.html" class="nav-link"><i class="fa fa-external-link"></i> Liens externes</a></li>
+                <li class="nav-item"><a href="contact.html" class="nav-link"><i class="fa fa-phone"></i> Me contacter</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="container-fluid">
+        <!-- fenetre d'affichage des images -->
+        <div class="modal fade" id="fenetreAffichage">
+            <div class="modal-dialog modal-dialog-centered modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title"></h4>
+                        <a role="button" data-bs-dismiss="modal" class="btn btn-close"></a>
+                    </div>
+                    <div class="modal-body"></div>
+                </div>
+            </div>
+        </div>
+
+
+        <h1>Actualités</h1>
+        <h2 class="text-end px-3" id="dateActuelle"><i class="fa fa-calendar text-light"></i> <span class="date"></span> - <span class="heure"></span></h2>
+        <div class="container-fluid">
+            <!-- Pour chaque article, ou encore information -->
+            <div class="row article">
+                <div class="order-last text-center"><a class="btn btn-deployer" type="button" data-bs-target="#info1" data-bs-toggle="collapse"><i class="fa fa-angles-down fa-2x"></i></a></div>
+                <!-- L'en-têtre : titre + boutton partager -->
+                <div class="col-12"> 
+                    <div class="d-flex flex-column flex-md-row justify-content-between ">
+                        <div>
+                            <h2 class="text-sm-1 flex-grow-1 m-0 text-center text-md-start">Gifle de Will Smith : un « Blackgate » aux Oscars ?</h2>
+                            <div class="d-flex justify-content-center justify-content-md-start"><pre>
+Date : <strong>30/03/2022 - 14:30</strong>
+Source : <strong>jeune<span class="text-danger">afrique</span></strong>
+</pre>
+                            </div>
+                        </div>
+                        <div class="share-btn my-1 d-flex align-items-center justify-content-center">
+                            <a class="btn" title="Copier le lien"><i class="fa fa-copy"></i></a>
+                            <a class="btn" title="Partager sur facebook"><i class="fa fa-facebook"></i></a>
+                            <a class="btn" title="Partager sur twitter"><i class="fa fa-twitter"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- le contenu de l'article : texte + photo -->
+                <div class="article-content col-12 collapse fade" id="info1">
+                    <div class="row">
+                        <article class="col-lg-9 order-1 mt-2 mt-lg-0 p-3">
+                            <p>
+                                En 2016, après une deuxième année de suite sans acteur et actrice noirs nommé aux Oscars, le hashtag 
+                                <span style="color : white">#OscarsSoWhite</span> dénonçait le manque de visibilité des Africains-Américains dans la cérémonie
+                                la plus en vue du cinéma américain, et ceci en dépit de récurrents succès commerciaux portés par les « visibles » Denzel Washington,
+                                Morgan Freeman ou Jamie Foxx. Six ans plus tard, à l’issue de la soirée de remise de trophées du 27 mars dernier, les médias occidentaux ne 
+                                retiennent que les passages sur scène des comédiens « blacks » Chris Rock et Will Smith…
+                            </p>
+
+                            <h4>Gifle et contrition publique</h4>
+                            <p>
+                                Dans son rôle de présentateur satirique, le premier a plaisanté sur la perte de cheveux de Jada Pinkett Smith, qui souffre d’alopécie. 
+                                Son mari, Will, est monté sur scène pour gifler copieusement l’impudent humoriste, avant de contredire ceux qui auraient imaginé un happening par
+                                des insultes menaçantes et particulièrement crues, depuis le fauteuil où il s’était rassis. Avant de fondre en larmes, plus tard dans la soirée, 
+                                lorsqu’il a reçu l’Oscar du meilleur acteur, dans la pure tradition de la contrition publique américaine…<br>
+                                <a href="https://www.youtube.com/watch?v=myjEoDypUD8">https://www.youtube.com/watch?v=myjEoDypUD8</a>
+                            </p>
+
+                            
+
+                            <p>
+                                Sur le fond, ce buzz se transformera en tempête dans un verre d’eau – aucune plainte déposée pour l’heure – nourrie d’arguments entre lesquels il serait 
+                                une perte de temps de vouloir trancher : certes, la violence publique est inacceptable ; mais certes, il est chevaleresque de défendre sa dulcinée ; 
+                                mais certes, il faut accepter pour soi la satire qu’on applaudit habituellement ; mais certes –en ces temps de retour du virilisme mondial –, c’est sexy 
+                                d’administrer une claque, quand on en a bien étudié les chorégraphies sur les plateaux de films d’action…
+                            </p>
+
+                            <h4>Instrumentalisation « racialisée »</h4>
+                            <p>Il reste l’éventuelle instrumentalisation « racialisée » de l’événement. La gifle a-t-elle à voir avec la couleur de peau des protagonistes ? Censément non, même si certains grincheux tentent de distiller, sur les réseaux sociaux, les stéréotypes d’Afro-américains impulsifs, entichés de leurs muscles et nourris d’outrances hip-hop. Et certains d’évoquer, en mode « Je dis ça, je ne dis rien », le fait que les « OscarsSoWhite », au moins, se déroulaient sans accroc…</p>
+
+                            <p>Même en éludant le fait que les Noirs sont particulièrement victimes de violences dans la société américaine, et même en admettant que le pugilat de l’édition 2022 des Oscars s’est tenu à la faveur de la nouvelle visibilité de certaines minorités, on pourrait toujours renverser la démonstration en arguant que les « Blacks » ont su enrichir la soirée du politiquement incorrect bienvenu du présentateur et du panache de l’époux blessé. Ça mérite peut-être une molaire endolorie…</p>
+
+                            <p>En rire pour ne pas en gloser ? Les humoristes ne sont pas les premiers à éviter le décryptage racial. Un chroniqueur français a tenté d’imaginer comment la claque des Oscars pourrait être transposée aux César hexagonaux, avant de conclure qu’il n’y a malheureusement qu’une star de cinéma noir au pays de Molière : Omar Sy, le Sénégalo-mauritanien d’origine, dont la carrière est d’ailleurs en partie américanisée…</p>
+                        </article>
+                        <aside class="col-lg-3 order-0 order-lg-last">
+                            <div class="row">
+                                <div class="card">
+                                    <a class="btn"><img src="../images/articles/willsmith.jfif" alt="Description de la scène" width="95%"></a>
+                                    <div class="card-body">
+                                        <p class="card-text">Gifle de Will Smith : un « Blackgate » aux Oscars ?</p>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                            
+                        </aside>
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div class="row article">
+                <div class="order-last text-center"><a class="btn btn-deployer" type="button" data-bs-target="#info2" data-bs-toggle="collapse"><i class="fa fa-angles-down fa-2x"></i></a></div>
+                <!-- L'en-têtre : titre + boutton partager -->
+                <div class="col-12"> 
+                    <div class="d-flex flex-column flex-md-row justify-content-between ">
+                        <div>
+                            <h2 class="text-sm-1 flex-grow-1 m-0 text-center text-md-start">Suspension du président de la Cour d'appel et d’un commandant de la gendarmerie</h2>
+                            <div class="d-flex justify-content-center justify-content-md-start"><pre>
+Date : <strong>30/03/2022 - 13:00</strong>
+Source : <strong style="color : white; background-color: red; display : inline-block; width : 50px; text-align : center;;">rf<span>i</span></strong>
+</pre>
+                            </div>
+                        </div>
+                        <div class="share-btn my-1 d-flex align-items-center justify-content-center">
+                            <a class="btn" title="Copier le lien"><i class="fa fa-copy"></i></a>
+                            <a class="btn" title="Partager sur facebook"><i class="fa fa-facebook"></i></a>
+                            <a class="btn" title="Partager sur twitter"><i class="fa fa-twitter"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- le contenu de l'article : texte + photo -->
+                <div class="article-content col-12 collapse fade" id="info2">
+                    <div class="row">
+                        <article class="col-lg-9 order-1 mt-2 mt-lg-0 p-3">                            
+                            <p>C’est une double sanction dont l'annonce a fait sensation ce 29 mars 2022. Elle vise deux hauts responsables qui avaient affiché un différend sur la place publique : le président de la Cour d'appel de Conakry et le Haut-Commandant de la gendarmerie.</p>
+
+                            <p>Lundi, Alphonse Charles Wright, le procureur de la Cour d'appel de Conakry, donne une conférence de presse pour dénoncer une série dysfonctionnements. D'un ton sec, il accuse Balla Samoura, le Haut-Commandant de la gendarmerie, d'interférer dans les affaires judiciaires qui ne relèvent pas de sa compétence.</p>
+
+                            <p>Pour rappel, Balla Samoura fait partie des hommes influents du CNRD, au pouvoir. Le procureur lui reproche d'avoir arrêté et séquestré d'anciens hauts responsables politiques fidèles à Alpha Condé, à l'image de Kalil Kaba, l'ancien ministre des Affaires étrangères qui, selon ses avocats, a passé deux jours dans les locaux de la direction de la justice militaire sans avoir été convoqué officiellement et surtout sans avoir accès à ses conseils.  </p>
+
+                            <p>Le magistrat a ensuite réitéré ces accusations dans une émission de grande écoute mardi matin : « On ne s'attribue pas des prérogatives, c'est la loi qui le fait. On peut tout négocier, sauf la loi. »</p>
+
+                            <p>Dans la soirée, un décret lapidaire du ministre de la Justice a annoncé la suspension immédiate d'Alphonse Charles Wright « pour faute disciplinaire ».</p>
+
+                            <p>Dans la foulée, Balla Samoura, a, lui aussi, été suspendu. Cette fois, la sanction provient de la junte. Tard dans la soirée, Sidiki Camara, le ministre délégué à la présidence chargé de la Défense nationale a lu un arrêté sur la chaîne nationale. Il y annonce la suspension de Balla Samoura pour « non-respect des consignes relatives à la prise de parole publique ».</p>
+
+                            En clair, on lui reproche d'avoir répondu aux accusations du magistrat par voie de presse. Balla Samoura s'était notamment justifié auprès de médias locaux, expliquant que son statut lui permettait, selon lui, d'agir comme un officier de police judiciaire.</p>
+                        </article>
+                        <aside class="col-lg-3 order-0 order-lg-last">
+                            <div class="row">
+                                <div class="col-lg-12 col-md-6">
+                                    <div class="card">
+                                        <a class="btn"><img src="../images/articles/charleswright.jpeg" alt="Description de la scène" width="95%"></a>
+                                        <div class="card-body">
+                                            <p class="card-text">Alphonse Charles Wright</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-12 col-md-6">
+                                    <div class="card">
+                                        <a class="btn"><img src="../images/articles/balla-samoura.jpeg" alt="Description de la scène" width="95%"></a>
+                                        <div class="card-body">
+                                            <p class="card-text">Col. Balla Samoura</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        </aside>
+                    </div>
+                    
+                </div>
+            </div>
+            
+            <div class="row article">
+                <div class="order-last text-center"><a class="btn btn-deployer" type="button" data-bs-target="#info3" data-bs-toggle="collapse"><i class="fa fa-angles-down fa-2x"></i></a></div>
+                <!-- L'en-têtre : titre + boutton partager -->
+                <div class="col-12"> 
+                    <div class="d-flex flex-column flex-md-row justify-content-between ">
+                        <div>
+                            <h2 class="text-sm-1 flex-grow-1 m-0 text-center text-md-start">La période du ramadan s’annonce difficile face à la hausse des prix</h2>
+                            <div class="d-flex justify-content-center justify-content-md-start"><pre>
+Date : <strong>Il y a 2 jours</strong>
+Source : <strong style="color : white; background-color: red; display : inline-block; width : 50px; text-align : center;;">rf<span>i</span></strong>
+</pre>
+                            </div>
+                        </div>
+                        <div class="share-btn my-1 d-flex align-items-center justify-content-center">
+                            <a class="btn" title="Copier le lien"><i class="fa fa-copy"></i></a>
+                            <a class="btn" title="Partager sur facebook"><i class="fa fa-facebook"></i></a>
+                            <a class="btn" title="Partager sur twitter"><i class="fa fa-twitter"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- le contenu de l'article : texte + photo -->
+                <div class="article-content col-12 collapse fade" id="info3">
+                    <div class="row">
+                        <article class="col-lg-9 order-1 mt-2 mt-lg-0 p-3">                            
+                            <p>En Guinée, le ramadan commence avec une question : que va-t-on pouvoir acheter pour la rupture du jeûne ?</p>
+
+                            <p>Avec notre correspondant à Conakry, <strong>Mathias Raynal</strong></p>
+
+                            <p>Interdiction de réexportation des denrées de première nécessité, baisse des droits de douane sur certains produits comme le riz ou encore le sucre... Le gouvernement a annoncé la semaine dernière une série de mesures pour soutenir le pouvoir d’achat étriqué des Guinéens. Mais dans les épiceries de Conakry, les prix sont repartis à la hausse, comme toujours en cette période de fête.</p>
+
+                            <p>Dans une minuscule épicerie du quartier de La Camayenne, Sophie Camara, 16 ans, rend sa monnaie à une cliente déprimée. <em>« Tous les prix ont augmenté, ça ne baisse jamais »</em>, se désole la jeune commerçante.</p>
+
+                            <p>Face à elle, Aminata Camara n’a pas pu faire de courses pour le ramadan. <em>« Je n’ai pas d’argent. Je n’ai encore rien acheté »</em>, se désole-t-elle. Si elle en avait les moyens, Aminata Camara prendrait <em>« du riz, du sucre, du lait, du thé. J’attends mon mari. Il est sorti pour essayer de trouver de l'argent. S'il y arrive, on va faire des achats. Sinon, on va s’asseoir dans la rue pendant la rupture du jeûne et des gens vont nous donner à manger. »</em> Lui est au chômage. Elle, commerçante, en fin de grossesse, est trop fatiguée pour travailler. Aminata Camara s'en remet à la solidarité des habitants du quartier.</p>
+
+                            <p>Quelques mètres plus loin, Mariam Diallo vend des oignons : <em>« Le sac de 25 kilos coûte désormais 185 000 Francs guinéens »</em>, presque 20 euros. Il vient de connaître une augmentation de plus de 20%, en deux semaines seulement.</p>
+
+                            <p>Mariam Diallo s’approvisionne auprès des grossistes de la capitale et les annonces du gouvernement n’ont eu aucun effet sur leurs tarifs. <em>« Aujourd'hui-même, je suis allée au marché et j’ai demandé les prix. Ils ne diminuent pas, bien au contraire, ils sont plus élevés chaque jour. »</em></p>
+
+                            <p>Et cela se répercute sur les affaires. Les clients sont moins nombreux que les années précédentes. Les détaillants, eux aussi, font grise mine à Conakry. </p>
+                        </article>
+                        <aside class="col-lg-3 order-0 order-lg-last">
+                            <div class="row">
+                                <div class="card">
+                                    <a class="btn"><img src="../images/articles/rue de conakry.jfif" alt="Une rue de Conakry" width="95%"></a>
+                                    <div class="card-body">
+                                        <p class="card-text">Dans une rue de Conakry</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </aside>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        
+        
+    </main>
+    <footer class="container-fluid">
+        <div class="container">
+            <div class="d-flex justify-content-center">
+                <a target="_blank" href="http://facebook.com/moustaphaotf" class="btn"><i class="fa fa-facebook"></i></a>
+                <a target="_blank" href="http://wa.me/qr/R5YHMIT6R3DB8O1" class="btn"><i class="fa fa-whatsapp"></i></a>
+                <a target="_blank" href="http://twitter.com/sumptring" class="btn"><i class="fa fa-twitter"></i></a>
+            </div>
+            <div class="d-flex justify-content-center align-items center">
+                <p><small>Mamadou Moustapha Diallo &copy; Avril 2022</small></p>
+            </div>
+        </div>
+    </footer>
+    <div class="goto-top"><a href="#" class="btn" role="button"><i class="fa fa-angle-double-up"></i></a></div>
+    
+    <script src="../js/jquery-3.6.0.js"></script>
+    <script src="../js/bootstrap.bundle.js"></script>
+    <script src="../js/script.js"></script>
+</body>
+</html>

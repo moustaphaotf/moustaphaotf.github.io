@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../images/favicons/forms.png" type="image/x-icon">
+
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <link rel="stylesheet" href="../css/all.css">
+    <link rel="stylesheet" href="../css/font-awesome.min.css">
+    <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="../css/form.css">
+    <link rel="stylesheet" href="..//css/bootstrap-multiselect.css">
+    <title>Formulaire</title>
+</head>
+<body>
+    <header class="container-fluid fixed-top">
+        <nav class="navbar navbar-expand-md">
+            <div class="navbar-brand"><img src="../images/logo.png" width="50" alt=""></div>
+            <!-- button d'toggle du menu -->
+            <button class="align-self-start btn navbar-toggler" data-bs-target="#navigationPanel" data-bs-toggle="collapse" aria-expanded="false"><i class="fa fa-bars"></i></button>
+
+            <!-- menu de navigation -->
+            <ul class="nav navbar-nav collapse navbar-collapse nav-pills justify-content-md-center flex-xs-nowrap align-items-start" id="navigationPanel">
+                <li class="nav-item"><a href="../index.html" class="nav-link"><i class="fa fa-home"></i> Accueil</a></li>
+                <li class="nav-item"><a href="actualites.html" class="nav-link"><i class="fa fa-newspaper-o"></i> Actualités</a></li>
+                <li class="nav-item">
+                    <div class="dropdown">
+                        <button class="btn dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false" aria-haspopup="true"><i class="fa fa-calculator"></i> Etudes</button>
+                        <div class="dropdown-menu megamenu">
+                            <a href="vie_estudiantine.html" class="dropdown-item"><i class="fa fa-group"></i> Vie estudiantine</a>
+                            <a href="etudes_experiences.html" class="dropdown-item"><i class="fa fa-user-graduate"></i> Etudes et expériences</a>
+                            <a href="progression.html" class="dropdown-item"><i class="fa fa-accessible-icon"></i> Progression</a>
+                        </div>
+                    </div>
+                    
+                </li>
+                <li class="nav-item"><a href="galerie.html" class="nav-link"><i class="fa fa-photo"></i> Galérie</a></li>
+                <li class="nav-item"><a href="audio_visuel.html" class="nav-link"><i class="fa fa-video-camera"></i> Streaming</a></li>
+                <li class="nav-item"><a href="telecharger.html" class="nav-link"><i class="fa fa-download"></i> Téléchargements</a></li>
+                <li class="nav-item"><a href="formulaire.html" class="nav-link active"><i class="fa fa-wpforms"></i> Formulaire</a></li>
+                <li class="nav-item"><a href="liens.html" class="nav-link"><i class="fa fa-external-link"></i> Liens externes</a></li>
+                <li class="nav-item"><a href="contact.html" class="nav-link"><i class="fa fa-phone"></i> Me contacter</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="container">
+        <div class="row">
+            <h1>Formulaire d'incription</h1>
+            <form action="" class="form" method="post">
+                <div class="row">
+                    <fieldset class="col-lg-4 col-md-6 col-sm-8">
+                        <legend>Informations personnelles</legend>
+                        <div class="form-group">
+                            <label for="firstname">Nom</label>
+                            <input type="text" class="form-control" required id="firstname" autofocus>
+                        </div>
+                        <div class="form-group">
+                            <label for="lastname">Prénom</label>
+                            <input type="text" class="form-control" required id="lastname">
+                        </div>
+                        <div class="form-group">
+                            <label for="situation">Situation matrimoniale</label>
+                            <select name="situation" id="situation" required class="form-select">
+                                <option value="-1" selected>Choisir...</option>
+                                <option value="0">Célibataire</option>
+                                <option value="1">Marié(e)</option>
+                                <option value="2">Divorcé(e)</option>
+                                <option value="-2">S'abstenir</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="dob">Date de naissance</label>
+                            <input type="date" class="form-control" required id="dob">
+                        </div>
+                        <div class="form-group">
+                            <label for="whereborn">Lieu de naissance</label>
+                            <input type="form-control" class="form-control" required id="whereborn">
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input type="radio" name="gender" class="form-check-input" id="homme">
+                            <label for="homme" value="H" class="form-check-label">Homme</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input type="radio" name="gender" class="form-check-input" id="femme" checked>
+                            <label for="femme" value="F" class="form-check-label">Femme</label>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="mom">Mère</label>
+                            <input type="form-control" class="form-control" required id="mom">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="dad">Père</label>
+                            <input type="form-control" class="form-control" required id="dad                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       ">
+                        </div>
+                    </fieldset>
+
+                    <fieldset class="col-lg-4 col-md-6 col-sm-8">
+                        <legend>Informations utilisateur</legend>
+                        <div class="form-group">
+                            <label for="username">Nom d'utilisateur</label>
+                            <input type="text" class="form-control" required id="username">
+                        </div>
+                        <div class="form-group">
+                            <label for="password1">Mot de passe</label>
+                            <input type="password" class="form-control" required id="password1">
+                        </div>
+                        <div class="form-group">
+                            <label for="password2">Confirmer le mot de passe</label>
+                            <input type="password" class="form-control" required id="password2">
+                        </div>
+                    </fieldset>
+
+                    <fieldset class="col-lg-4 col-md-6 col-sm-8">
+                        <legend>Informations complémentaires</legend>
+                        <div class="form-group">
+                            <label for="cv">Curriculum Vitae</label>
+                            <p>CV au format <strong>.jpg</strong> ou <strong>.pdf</strong></p>
+                            <input type="file" name="cv" id='cv' required class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label for="languages">Langues parlées (plusieurs choix sont possibles)</label>
+                            <p>Pour faire plusieurs choix, maintenir la touche &lt;CTRL&gt;</p>
+                            <select class="form-select" size="5" name="languages" required id="languages" multiple="multiple">
+                                <optgroup label="Langues étrangères">
+                                    <option value="0">Anglais</option>
+                                    <option value="1">Arabe</option>
+                                    <option value="2">Espagnol</option>
+                                    <option value="3" selected >Français</option>
+                                </optgroup>
+                                <optgroup label="Langues nationale">
+                                    <option value="4">Kissi</option>
+                                    <option value="5">Malinké</option>
+                                    <option value="6" selected>Poular</option>
+                                    <option value="7" selected>Sousou</option>
+                                </optgroup>
+                            </select>
+                        </div>
+                        
+                    </fieldset>
+                </div>
+                <div class="row d-flex">
+                    <div class="controls col-lg-12 d-flex justify-content-center">
+                        <button class="btn btn-primary" type="submit">S'inscrire</button>
+                        <button class="btn btn-secondary" type="reset">Vider les champs</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div class="row">
+            <div class="col-lg-5 col-md-6 col-sm-8">
+                <h1>Formulaire de contact</h1>
+                <form action="" class="form contact" method="post" enctype="multipart/form-data">
+                    <div class="form-group">
+                        <label for="name2">Nom complet</label>
+                        <input type="text" class="form-control" id="name2" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Adresse email</label>
+                        <input type="email" class="form-control" required name="email">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea required name="message" id="message" cols="30" rows="7" class="form-control"></textarea>
+                    </div>
+                    <div class="row d-flex">
+                        <div class="controls d-flex justify-content-center">
+                            <button class="btn btn-primary" type="submit">Envoyer</button>
+                            <button class="btn btn-secondary" type="reset">Vider les champs</button>
+                        </div>
+                    </div>
+                </form>
+        </div>
+    </main>
+    <footer class="container-fluid">
+        <div class="container">
+            <div class="d-flex justify-content-center">
+                <a target="_blank" href="http://facebook.com/moustaphaotf" class="btn"><i class="fa fa-facebook"></i></a>
+                <a target="_blank" href="http://wa.me/qr/R5YHMIT6R3DB8O1" class="btn"><i class="fa fa-whatsapp"></i></a>
+                <a target="_blank" href="http://twitter.com/sumptring" class="btn"><i class="fa fa-twitter"></i></a>
+            </div>
+            <div class="d-flex justify-content-center align-items center">
+                <p><small>Mamadou Moustapha Diallo &copy; Avril 2022</small></p>
+            </div>
+        </div>
+    </footer>
+    <div class="goto-top"><a href="#" class="btn" role="button"><i class="fa fa-angle-double-up"></i></a></div>
+    
+    <script src="../js/jquery-3.6.0.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/script.js"></script>
+</body>
+</html>
