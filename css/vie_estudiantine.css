@@ -1,0 +1,17 @@
+/* .card *{
+  border : 1px solid blue;
+} */
+
+.card-body{
+  padding-top : 0;
+  padding-bottom: 0;
+}
+
+.profile{
+  box-shadow: none;
+  border : none;
+  background-color: none;
+}
+.profile img{
+  border-radius: 50%;
+}

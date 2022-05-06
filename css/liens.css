@@ -1,0 +1,11 @@
+.table{
+}
+
+td{
+    text-align: center;
+}
+
+td a{
+    margin-left: 20px;
+    margin-right: 20px;
+}

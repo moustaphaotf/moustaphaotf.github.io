@@ -1,0 +1,32 @@
+form > *{
+    margin-bottom : 8px;
+}
+
+fieldset{
+    /* border:1px solid black; */
+}
+
+/* passer par le pprent */
+form div.row > *{
+    padding : 10px;
+}
+
+.controls > *{
+    margin : 0 5px;
+}
+
+form p{
+    margin : 0;
+    font-size: 0.8em;
+    color : green;
+}
+
+label{
+    margin: 5px 0;
+}
+
+.form-control, .form-select{
+    opacity: 0.8;
+}
+
+/*RESPONSIVITE*/

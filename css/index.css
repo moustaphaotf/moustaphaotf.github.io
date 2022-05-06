@@ -1,0 +1,38 @@
+h1 > marquee{
+    color : blue;
+    animation : mycoloring 3s infinite;
+    background-color: rgba(160, 230, 200, 0.3);
+    border-radius: 0.25em;
+    padding : 5px;
+}
+
+@keyframes mycoloring{
+    10%{
+        color : black;
+    }
+    50%{
+        color: yellowgreen;
+    }
+    100%{
+        color : white
+    }
+}
+
+img{
+    border-radius: 50%;
+    margin:auto;
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.5);
+}
+
+.profile{
+    text-align: center;
+}
+
+main{
+    font-size: 1.4em;
+}
+
+footer{
+    position : fixed;
+    bottom : 0;
+}

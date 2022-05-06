@@ -1,0 +1,16 @@
+.table{
+  /* background-color: rgba(153, 204, 51, 0.5); */
+}
+
+td{
+  border-width: 0 !important;
+}
+
+.progress{
+  width : 95%;
+  height: 1.5em;
+}
+
+td{
+  text-align: center;
+}

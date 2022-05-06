@@ -1,0 +1,55 @@
+main h1{
+  text-align : center;
+}
+
+.table{
+  margin-top : 20px;
+  width : auto !important;
+  margin : auto;
+}
+
+tr{
+  border-color : unset;
+}
+
+td, th{
+  font-size: 1em;
+  border : 1px solid black !important;
+}
+
+tr th:not(:first-child){
+  text-align : center;
+}
+
+.recherche{
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.6em;
+}
+
+@media(min-width:567px){
+  .recherche{
+    letter-spacing: 0.2em;
+    font-size: 1.8em;
+  }
+}
+
+@media(min-width:768px){
+  .recherche{
+    letter-spacing: 0.5em;
+  }
+}
+
+@media(min-width:992px){
+  .recherche{
+    letter-spacing : 0.8em;
+    font-size: 1.9em;
+  }
+}
+
+@media(min-width:1200px){
+  .recherche{
+    letter-spacing: 1em;
+  }
+}
+/* centrer les groupes et les salles */

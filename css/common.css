@@ -1,0 +1,229 @@
+body{
+    background:url("../images/bg7.webp") center;
+
+}
+
+header{
+    background-image: inherit;
+    padding-top: 5px;
+    /* border-bottom-right-radius: 1em; */
+}
+
+marquee{
+    display: flex;
+}
+
+header .navbar{
+    border-radius: 0.25em;
+    box-shadow : 0px 3px 10px rgba(0, 0, 0, 0.5);
+    padding : 1%;
+    background-color: rgba(0, 0, 220, 0);
+}
+
+header ul.nav.navbar-nav{
+    margin-top : 10px;
+    transition: all 0.5s ease-in-out;
+}
+
+.dropdown-item{
+    border-radius : 0.25em;
+    color: white;
+}
+
+a{
+    text-decoration: none;
+    color : white;
+}
+
+a:hover{
+    /* text-decoration: underline; */
+    color : white;
+}
+
+
+@media(max-width:768px){
+    .nav-item{
+        width : 100%;
+      }
+      
+}
+
+.nav-link,
+.nav-item .btn{
+    text-align: left;
+    width : 100%;
+    border-radius: 0.25em;
+    text-transform: uppercase;
+    color : white ;
+}
+
+.nav-link:hover,
+.nav-item .btn:hover{
+    background-color: rgba(135, 206, 235, 0.7);
+    color : white;
+}
+
+.dropdown-toggle{
+    text-align: justify;
+}
+
+.dropdown-menu{
+    margin-top:5px !important;
+    background-image: url("../images/bg7.webp");
+    border : none;
+    padding: 0;
+    border-radius: 0.25em;
+    box-shadow : 0px 3px 10px rgba(0, 0, 0, 0.5);
+}
+
+
+/* contenu de la page web*/
+main{
+    margin-top : 6.5rem;
+    padding-top : 1%;
+    font-size: 1.15em;
+    /* border : 1px solid red; */
+}
+
+main p{
+    text-align: justify;
+}
+
+main > h1{
+    margin-bottom: 10px;
+}
+
+
+/*menu*/
+.btn.btn-menu{
+    color : white;
+    font-size : 1em;
+    height: 100%;
+    align-self: center;
+}
+
+
+.menu{
+    margin-left : 24px;
+}
+
+.menu .nav-link{
+    text-transform: none;
+    font-size: 0.9em;
+    padding-left : 10px;
+}
+
+
+/* le boutton Aller en haut de la page */
+.goto-top{
+    position : fixed;
+    right : 25px;
+    bottom : -100px;
+    z-index : 9999;
+    width : 50px;
+    height: 50px;
+    transition: all .7s ease-in-out;
+}
+
+.goto-top .btn{
+    background-color : rgba(0, 0, 0, 0.5);
+    width : 100%;
+    color : white;
+    height: 100%;
+    font-size : 2em;
+    border-radius: 0.3em;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+button:focus{
+    border: none;
+    outline-style: none !important;
+}
+
+
+/* GALERIE ET MEDIAS*/
+/* .videos > * > .row,
+.album > * > .row{
+    margin-top : 20px;
+    background-color: rgba(0, 255, 255, 0.1);
+    border-radius: 0.25em;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    padding : 1%;
+} */
+
+main .container-fluid > .row{
+    margin-top : 20px;
+    background-color: rgba(0, 255, 255, 0.1);
+    border-radius: 0.25em;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    padding : 1%;
+}
+
+.card{
+    background-color: inherit;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.4);
+    padding : 0.5%;
+    /* border : 1px solid red; */
+}
+.card-body{
+    width : 100%;
+    padding : 5px;
+}
+
+.card-text{
+    text-align : left;
+    color : white;
+    font-size: 0.8em;
+}
+
+audio{
+    padding-top: 15px;
+}
+
+/* Les tableaux */
+.table{
+    margin : auto;
+}
+
+td, th{
+    vertical-align: middle;
+    font-size: 1.1;
+    border-width : 0 !important;
+}
+
+tr:first-child th{
+    text-align : center;
+}
+
+
+/*Les fenêtres modales*/
+.modal-body{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.modal-title{
+    font-size: 1em;
+}
+
+/*Le pre qui se trouve dans actualites et streaming*/
+pre{
+    margin : 0;
+    padding : 0.5em 0;
+}
+
+
+/* Le pied de page */
+footer{
+    margin-top : 10px;
+    color : white;
+    box-shadow: 0 0 10px rgba(0, 0 , 0, 0.5);
+}
+
+footer i{
+    color : white;
+}

@@ -1,0 +1,39 @@
+main .container-fluid > .row{
+  box-shadow:  0 0 5px rgba(0, 0, 0, 0.1);
+}
+/*Les bouttons de partage*/
+
+.share-btn .btn{
+  border-radius: 50%;
+  width : 40px;
+  box-shadow: 0 0 1px aliceblue;
+}
+
+.btn-deployer{
+  border-radius: 50%;
+  color : white;
+}
+
+.share-btn .btn:hover{
+  background-color : rgba( 216, 240, 230, 0.5)
+}
+
+/* date actuelle */
+#dateActuelle{
+  padding-left: 2rem;
+  font-family: monospace;
+}
+
+#dateActuelle .date,
+#dateActuelle .heure{
+  color : black;
+}
+
+/* article courant */
+
+.article.current{
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5) !important;
+}
+
+footer{
+}
