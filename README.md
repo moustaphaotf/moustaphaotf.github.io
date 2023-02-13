@@ -1,7 +1,7 @@
 - 👋 Hi, I’m @moustaphaotf
-- 👀 I’m interested in php, JS, C, C++
-- 🌱 I’m currently learning frameworks about those (php, JS) like Laravel, Symfony and NodeJS
-- 💞️ I’m looking to collaborate on php, JS
+- 👀 I’m interested in PHP, JS, C, C++
+- 🌱 I’m currently learning the NodeJS environment
+- 💞️ I’m looking to collaborate on PHP and JS
 - 📫 How to reach me moustaphaotf@gmail.com
 
 <!---
