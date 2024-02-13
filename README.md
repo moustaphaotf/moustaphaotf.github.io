@@ -1,5 +1,3 @@
-<center>
-
 [![Read the file in french]( https://img.shields.io/badge/FR-Français-blue)](README.FR.md) [![Read the file in french]( https://img.shields.io/badge/EN-English-orange)](README.md)
 
 # Hello World !
@@ -12,7 +10,9 @@ Take a tour, discover, learn, build and share !
 Mamadou Moustapha Diallo
 
 `@moustaphaotf || @sumptring`
+
 ![](https://img.shields.io/badge/Node-000000?logo=nodedotjs) ![](https://img.shields.io/badge/Laravel-000000?logo=laravel) ![](https://img.shields.io/badge/Flutter-000000?logo=flutter) ![](https://img.shields.io/badge/Next-000000?logo=nextdotjs) ![](https://img.shields.io/badge/Python-000000?logo=python)
+
 <img src="https://tryhackme-badges.s3.amazonaws.com/sumptring.png" alt="TryHackMe">
 
 ## My recent activities
@@ -35,5 +35,3 @@ Mamadou Moustapha Diallo
 |SQL and RDBMS|A course about databases I gave to first year students. I discussed with them the way to create simple SQLite database and basic SQL commands.||
 |ProQuizz|A web app designed to help my classmates to prepare for the C++ course test.|January 15th 2023|Visit [this repository](https://github.com/moustaphaotf/proquizz)|
 |Clockzzle|A web/mobile app game that help u learn the correct way to tell time in english.|Sept-Oct 2022|Visit [this repository](https://github.com/moustaphaotf/clockzzle)|
-
-</center>
