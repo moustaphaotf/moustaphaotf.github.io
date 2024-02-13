@@ -7,7 +7,7 @@ Take a tour, discover, learn, build and share !
 
 ## Who am I ?
 
-|Peudo|Tools|
+|Pseudo|Tools|
 |-|-|
 |`@moustaphaotf @sumptring`|![](https://img.shields.io/badge/Node-000000?logo=nodedotjs) ![](https://img.shields.io/badge/Laravel-000000?logo=laravel) ![](https://img.shields.io/badge/Flutter-000000?logo=flutter) ![](https://img.shields.io/badge/Next-000000?logo=nextdotjs) ![](https://img.shields.io/badge/Python-000000?logo=python)|
 
