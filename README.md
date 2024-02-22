@@ -19,7 +19,7 @@ Take a tour, discover, learn, build and share !
 |0xCH4115 Schedule App Review||February 07th 2024||
 |0xCH4115 Image Lookup Review||January 27th 2024||
 |Web Fondamentals|I spent a full week of discovery around the web environment with 2nd grade students of my university. We talked about `HTML CSS JS PHP`|January 11-19th 2024|Visit [this repository](https://github.com/moustaphaotf/web-fondamentals)|
-|Batch Contact Saver|A mobile app for saving multiple prefixed contacts in a batch.|January 8th 2024|Visit [this repository](https://github.com/moustaphaotf/batch-contact-saver)|
+|Contact Saver|A mobile app for saving multiple prefixed contacts in a batch.|January 8th 2024|Visit [this repository](https://github.com/moustaphaotf/contact-saver)|
 |Compile Easy|An environment made for helping users to design any idea into code and execute it without any prerequisite.|January 4th 2024|Visit [this repository](https://github.com/moustaphaotf/compileasy)|
 |Advent of Cyber 2023|In this adventure, each day I tackled down a challenge to help me understand more about some topics of cyber as well as machine learning, programming and much more.|December 01-25th 2023|
 |ODC Champions 2023|2 Hours of live coding. 5 challenges were given, but my team only tackled down 3 of them. The issue of the contest was to have a fully equiped building in my university. We were the 2nd team after the University of Labé and before the Gandhi University. The opportunity was crucial for me to learn more about team work.|December 14th 2023|
