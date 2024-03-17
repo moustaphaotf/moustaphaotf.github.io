@@ -18,10 +18,10 @@ Take a tour, discover, learn, build and share !
 
 |Nom|Description|Date|Voir Plus|
 |-|-|-|-|
-|0xCH4115 Webserver Logs App Review||March 17th 2024|
-|Learn Git and GitHub (GDSC ISTM)|Le Club GDSC dont je suis lead a organisé un évènement à propose des outils de collaboration Git et GitHub, j'y ai partagé mon expérience aux étudiants et les ai invité de mettre en pratique ces nouvelles connaissance en pratique dans leur projets de tous les jours.|March 15th 2024|Visitez [ce repository](https://github.com/moustphaotf/learn-git) pour plus de détails.|
-|0xCH4115 Schedule App Review||February 07th 2024||
-|0xCH4115 Image Lookup App Review||January 27th 2024||
+|0xCH4115 Webserver Logs App Review||17 Mars 2024|
+|Learn Git and GitHub (GDSC ISTM)|Le Club GDSC dont je suis lead a organisé un évènement à propose des outils de collaboration Git et GitHub, j'y ai partagé mon expérience aux étudiants et les ai invité de mettre en pratique ces nouvelles connaissance en pratique dans leur projets de tous les jours.|15 Mars 2024|Visitez [ce repository](https://github.com/moustphaotf/learn-git) pour plus de détails.|
+|0xCH4115 Schedule App Review||7 Février 2024||
+|0xCH4115 Image Lookup App Review||27 Janvier 2024||
 |Web Fondamentals|J'ai passé une semaine entière avec une dizaine d'étudiants de 2ème année pour les faire découvrir les fondamentaux du développement web. Nous avons parlé des technologies telles que `HTML CSS JS PHP`|11-19 Janvier 2024|Visitez [ce repository](https://github.com/moustaphaotf/web-fundamentals)|
 |Contact Saver|Une application mobile pour enregistrer plusieurs contacts préfixés en une fois.|8 Janvier 2024|Visitez [ce repository](https://github.com/moustaphaotf/contact-saver)|
 |Compile Easy|Un environnement pensé pour aider les utilisateurs à implémenter leurs idées dans plusieurs langages de programmation et les exécuter sans prérequis.|4 Janvier 2024|Visitez [ce repository](https://github.com/moustaphaotf/compileasy)|
