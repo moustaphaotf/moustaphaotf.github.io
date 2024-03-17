@@ -16,7 +16,7 @@ Take a tour, discover, learn, build and share !
 
 ## Mes activités récentes
 
-|Name|Description|Date|Learn More|
+|Nom|Description|Date|Voir Plus|
 |-|-|-|-|
 |0xCH4115 Schedule App Review||February 07th 2024||
 |0xCH4115 Image Lookup App Review||January 27th 2024||
