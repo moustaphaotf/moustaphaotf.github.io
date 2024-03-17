@@ -16,6 +16,8 @@ Take a tour, discover, learn, build and share !
 
 |Name|Description|Date|Learn More|
 |-|-|-|-|
+|0xCH4115 Webserver Logs App Review||March 17th 2024|
+|Learn Git and GitHub (GDSC ISTM)|The GDSC Club I am leading organized an event about the opensource tools Git and GitHub, I shared my experience to students and invited them to use those brand new skills in their daily projects.|March 15th 2024|Visit [this repository](https://github.com/moustphaotf/learn-git) for more details|
 |0xCH4115 Schedule App Review||February 07th 2024||
 |0xCH4115 Image Lookup App Review||January 27th 2024||
 |Web Fondamentals|I lectured within a full week a course about the web fundamentals to 2nd grade students of my university. We talked about `HTML CSS JS PHP`|January 11-19th 2024|Visit [this repository](https://github.com/moustaphaotf/web-fundamentals)|
