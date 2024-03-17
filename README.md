@@ -17,8 +17,8 @@ Take a tour, discover, learn, build and share !
 |Name|Description|Date|Learn More|
 |-|-|-|-|
 |0xCH4115 Schedule App Review||February 07th 2024||
-|0xCH4115 Image Lookup Review||January 27th 2024||
-|Web Fondamentals|I spent a full week of discovery around the web environment with 2nd grade students of my university. We talked about `HTML CSS JS PHP`|January 11-19th 2024|Visit [this repository](https://github.com/moustaphaotf/web-fondamentals)|
+|0xCH4115 Image Lookup App Review||January 27th 2024||
+|Web Fondamentals|I lectured within a full week a course about the web fundamentals to 2nd grade students of my university. We talked about `HTML CSS JS PHP`|January 11-19th 2024|Visit [this repository](https://github.com/moustaphaotf/web-fundamentals)|
 |Contact Saver|A mobile app for saving multiple prefixed contacts in a batch.|January 8th 2024|Visit [this repository](https://github.com/moustaphaotf/contact-saver)|
 |Compile Easy|An environment made for helping users to design any idea into code and execute it without any prerequisite.|January 4th 2024|Visit [this repository](https://github.com/moustaphaotf/compileasy)|
 |Advent of Cyber 2023|In this adventure, each day I tackled down a challenge to help me understand more about some topics of cyber as well as machine learning, programming and much more.|December 01-25th 2023|

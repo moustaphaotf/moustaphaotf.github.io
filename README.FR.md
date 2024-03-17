@@ -19,8 +19,8 @@ Take a tour, discover, learn, build and share !
 |Name|Description|Date|Learn More|
 |-|-|-|-|
 |0xCH4115 Schedule App Review||February 07th 2024||
-|0xCH4115 Image Lookup Review||January 27th 2024||
-|Web Fondamentals|J'ai passé une semaine entière avec une dizaine d'étudiant en 2ème année pour les faire découvrri les fondamentaux du développement web. Nous avons parlé des technologies telles que `HTML CSS JS PHP`|11-19 Janvier 2024|Visitez [ce repository](https://github.com/moustaphaotf/web-fondamentals)|
+|0xCH4115 Image Lookup App Review||January 27th 2024||
+|Web Fondamentals|J'ai passé une semaine entière avec une dizaine d'étudiants de 2ème année pour les faire découvrir les fondamentaux du développement web. Nous avons parlé des technologies telles que `HTML CSS JS PHP`|11-19 Janvier 2024|Visitez [ce repository](https://github.com/moustaphaotf/web-fundamentals)|
 |Contact Saver|Une application mobile pour enregistrer plusieurs contacts préfixés en une fois.|8 Janvier 2024|Visitez [ce repository](https://github.com/moustaphaotf/contact-saver)|
 |Compile Easy|Un environnement pensé pour aider les utilisateurs à implémenter leurs idées dans plusieurs langages de programmation et les exécuter sans prérequis.|4 Janvier 2024|Visitez [ce repository](https://github.com/moustaphaotf/compileasy)|
 |Advent of Cyber 2023|Dans cette aventure, chaque jour je résolvais un challenge afin de mieux comprendre sur certains sujets sur la cybersécurité, le machine learning et bien d'autres.|December 01-25th 2023|
