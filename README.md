@@ -16,7 +16,7 @@ Take a tour, discover, learn, build and share !
 
 |Name|Description|Date|Learn More|
 |-|-|-|-|
-|Relational Database Certification (freeCodeCamp)|Learned skills: `Programmation Bash`, `PostgreSQL`, `Git`|8-18 Mars 2024|Visit [this link](https://www.freecodecamp.org/certification/fcc3dfce499-15d8-495d-a69a-6fecdf3a795a/relational-database-v8) for more infos.|
+|Relational Database Certification (freeCodeCamp)|Learned skills: `Programmation Bash`, `PostgreSQL`, `Git`|March 8-18th 2024|Visit [this link](https://www.freecodecamp.org/certification/fcc3dfce499-15d8-495d-a69a-6fecdf3a795a/relational-database-v8) for more infos.|
 |0xCH4115 Webserver Logs App Review||March 17th 2024|
 |Learn Git and GitHub (GDSC ISTM)|The GDSC Club I am leading organized an event about the opensource tools Git and GitHub, I shared my experience to students and invited them to use those brand new skills in their daily projects.|March 15th 2024|Visit [this repository](https://github.com/moustphaotf/learn-git) for more details|
 |0xCH4115 Schedule App Review||February 07th 2024||
