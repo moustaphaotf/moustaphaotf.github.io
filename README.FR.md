@@ -18,6 +18,12 @@ Take a tour, discover, learn, build and share !
 
 |Nom|Description|Date|Voir Plus|
 |-|-|-|-|
+|DevoirsPlus||April 25 2024||
+|CEH : intro (Certified Ethical Hacking)|Avec un missionnaire Sénégalais, nous avons suivi à l'université un cours sur le hacking éthique et la cybersécurité, une occasion pour moi de faire le parallèle avec les notions que j'avais acquises en début d'année en autodidacte sur TryHackMe.|18-25 Avril 2024||
+|Algorthms & C Programming|Au cours de cette semaine, le club GDSC à l'IST de Mamou a tenu un focus sur la programmation, j'ai eu le privilège de les cottoyer et partager avec eux des notions de programmation en langage C. Pour finir en beauté, nous avons également invité des étudiants en dernière année ainsi que le PDG de TAK multiservice à participer pour leur donner des orientations d'avenir.|17-24 Avril 2024|[Détails de l'évènement](https://github.com/istmamou/learn-programming)|
+|CAF Hacking Challenge||30 Mars - 09 Avril 2024||
+|Spring Challenge 2024 avec Fiverr (codingame)||26-28 Mars 2024||
+|Reply Challenges Standard Edition 2024||21 Mars 2024||
 |Relational Database Certification (freeCodeCamp)|Compétences acquises: `Programmation Bash`, `PostgreSQL`, `Git`|8-18 Mars 2024|Visitez [ce lien](https://www.freecodecamp.org/certification/fcc3dfce499-15d8-495d-a69a-6fecdf3a795a/relational-database-v8) pour plus de détails.|
 |0xCH4115 Webserver Logs App Review||17 Mars 2024|
 |Learn Git and GitHub (GDSC ISTM)|Le Club GDSC dont je suis lead a organisé un évènement à propose des outils de collaboration Git et GitHub, j'y ai partagé mon expérience aux étudiants et les ai invité de mettre en pratique ces nouvelles connaissance en pratique dans leur projets de tous les jours.|15 Mars 2024|Visitez [ce repository](https://github.com/moustphaotf/learn-git) pour plus de détails.|
