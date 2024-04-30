@@ -16,6 +16,7 @@ Take a tour, discover, learn, build and share !
 
 |Name|Description|Date|Learn More|
 |-|-|-|-|
+|Objectif IA : initiez-vous à l'intelligence artificielle|A course recommended by EEIA where the main discussion is about an introduction to AI and different kind of approaches one can take with a AI project.|April 27-30th 2024|OpenClassrooms|
 |DevoirsPlus||April 25 2024||
 |CEH : intro (Certified Ethical Hacking)|We studied at the university a course which focuses on ethical hacking and cybersecurity, an opportunity for me to take into practice what I learned earlier this year on TryHackMe. The course was lectured by a Senegalese teacher.|April 18-25th 2024||
 |Algorthms & C Programming|Within this week, the GDSC club at IST Mamou hold a focus on Programming, I shared with first year student on Computer Science tips and we solved some challenges in C language. The situation was appropriate to tell them what makes a computer scientist as we invited also future alumni and the PDG of TAK Multiservices to give them orientations.|April 17-24th 2024|[Event Details](https://github.com/istmamou/learn-programming)|

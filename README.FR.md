@@ -18,6 +18,7 @@ Take a tour, discover, learn, build and share !
 
 |Nom|Description|Date|Voir Plus|
 |-|-|-|-|
+|Objectif IA : initiez-vous à l'intelligence artificielle|Recommandé par EEIA (Ecole d'Eté sur l'Intelligence Artificielle), ce cours fait office d'introduction à la matière et discute des différentes approches d'un projet IA.|April 27-30th 2024|OpenClassrooms|
 |DevoirsPlus||April 25 2024||
 |CEH : intro (Certified Ethical Hacking)|Avec un missionnaire Sénégalais, nous avons suivi à l'université un cours sur le hacking éthique et la cybersécurité, une occasion pour moi de faire le parallèle avec les notions que j'avais acquises en début d'année en autodidacte sur TryHackMe.|18-25 Avril 2024||
 |Algorthms & C Programming|Au cours de cette semaine, le club GDSC à l'IST de Mamou a tenu un focus sur la programmation, j'ai eu le privilège de les cottoyer et partager avec eux des notions de programmation en langage C. Pour finir en beauté, nous avons également invité des étudiants en dernière année ainsi que le PDG de TAK multiservice à participer pour leur donner des orientations d'avenir.|17-24 Avril 2024|[Détails de l'évènement](https://github.com/istmamou/learn-programming)|
