@@ -18,6 +18,7 @@ Take a tour, discover, learn, build and share !
 
 |Nom|Description|Date|Voir Plus|
 |-|-|-|-|
+|Débutez avec le framework Django (OpenClassrooms)|Un cours pratique d'introduction à Djang. <br> Compétences acquises `python` `django` |30 Avril - 1er Mai 2024||
 |Objectif IA : initiez-vous à l'intelligence artificielle|Recommandé par EEIA (Ecole d'Eté sur l'Intelligence Artificielle), ce cours fait office d'introduction à la matière et discute des différentes approches d'un projet IA.|April 27-30th 2024|OpenClassrooms|
 |DevoirsPlus||April 25 2024||
 |CEH : intro (Certified Ethical Hacking)|Avec un missionnaire Sénégalais, nous avons suivi à l'université un cours sur le hacking éthique et la cybersécurité, une occasion pour moi de faire le parallèle avec les notions que j'avais acquises en début d'année en autodidacte sur TryHackMe.|18-25 Avril 2024||
