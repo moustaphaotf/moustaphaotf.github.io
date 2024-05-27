@@ -18,7 +18,7 @@ Take a tour, discover, learn, build and share !
 
 |Nom|Description|Date|Voir Plus|
 |-|-|-|-|
-|Talk à propos de la Roadmap du Web lors FODR-24|Présenter les outils principaux utilisés par les développeurs web dans leur avanture quotidienne.|17-18 Mai 2024|[Ressources](https://github.com/moustaphaotf/)|
+|Talk à propos de la Roadmap du Web lors FODR-24|Présenter les outils principaux utilisés par les développeurs web dans leur avanture quotidienne.|17-18 Mai 2024|[Ressources](https://github.com/istmamou/cjp-web-roadmap/)|
 |Débutez avec le framework Django (OpenClassrooms)|Un cours pratique d'introduction à Djang. <br> Compétences acquises `python` `django` |30 Avril - 1er Mai 2024||
 |Objectif IA : initiez-vous à l'intelligence artificielle|Recommandé par EEIA (Ecole d'Eté sur l'Intelligence Artificielle), ce cours fait office d'introduction à la matière et discute des différentes approches d'un projet IA.|April 27-30th 2024|OpenClassrooms|
 |DevoirsPlus||April 25 2024||
