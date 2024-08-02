@@ -16,6 +16,7 @@ Take a tour, discover, learn, build and share !
 
 |Name|Description|Date|Learn More|
 |-|-|-|-|
+|Bachelor's degree final defense project|At the end of a 5-month internship, I presented my project to a jury of 4 research professors at my institute. This project was a real lever for my entry into the professional world.|June 20th 2024|[Ressources]|
 |Talk about Web Roadmap on FODR-24|Expose the main tools used by web developers in their daily coding journey.|May 17-18th 2024|[Ressources](https://github.com/istmamou/cjp-web-roadmap/)|
 |Débutez avec le framework Django (OpenClassrooms)|A practical introductory course on Django. <br> Learned Skills `python` `django` |April 30th - May 1st 2024||
 |Objectif IA : initiez-vous à l'intelligence artificielle|A course recommended by EEIA where the main discussion is about an introduction to AI and different kind of approaches one can take with an AI project.|April 27-30th 2024|OpenClassrooms|

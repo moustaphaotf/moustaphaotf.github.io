@@ -16,6 +16,7 @@ Take a tour, discover, learn, build and share !
 
 |Nom|Description|Date|Voir Plus|
 |-|-|-|-|
+|Projet de Soutenance de fin d'études universitaires|A l'issu d'un stage de 5 mois, j'ai présenté mon projet de soutenance devant un jury composé de 4 enseignants chercheurs au sein de mon institut. Ce projet a constitué un vrai levier pour mon accession au monde professionnel.|20 Juin 2024||
 |Talk à propos de la Roadmap du Web lors FODR-24|Présenter les outils principaux utilisés par les développeurs web dans leur avanture quotidienne.|17-18 Mai 2024|[Ressources](https://github.com/istmamou/cjp-web-roadmap/)|
 |Débutez avec le framework Django (OpenClassrooms)|Un cours pratique d'introduction à Djang. <br> Compétences acquises `python` `django` |30 Avril - 1er Mai 2024||
 |Objectif IA : initiez-vous à l'intelligence artificielle|Recommandé par EEIA (Ecole d'Eté sur l'Intelligence Artificielle), ce cours fait office d'introduction à la matière et discute des différentes approches d'un projet IA.|April 27-30th 2024|OpenClassrooms|
@@ -44,5 +45,3 @@ Take a tour, discover, learn, build and share !
 |SQL and RDBMS|Il s'agit d'un cours sur les bases de données que j'ai eu à dispensé en 3 jours aux étudiants de première années. Pendant ces trois jous, nous avons découvert les bases de données relationnelles avec SQLite et le langage de requêtes SQL.||
 |ProQuizz|Une application web conçue pour aider mes amis de classe de se préparer pour l'évaluation en langage C++|15 Janvier 2023|Visitez [ce repository](https://github.com/moustaphaotf/proquizz)|
 |Clockzzle|Une application web et mobile qui vous aide à apprendre à lire l'heure en anglais de façon gamifiée.|Sept-Oct 2022|Visit [ce repository](https://github.com/moustaphaotf/clockzzle)|
-
-</center>
