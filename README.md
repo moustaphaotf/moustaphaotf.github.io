@@ -1,4 +1,4 @@
-[![Read the file in french]( https://img.shields.io/badge/FR-Français-blue)](README.FR.md) [![Read the file in french]( https://img.shields.io/badge/EN-English-orange)](README.md)
+[![Read the file in french]( https://img.shields.io/badge/FR-Français-blue)](french/README.md) [![Read the file in french]( https://img.shields.io/badge/EN-English-orange)](README.md)
 
 # Hello World !
 
