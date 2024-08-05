@@ -16,6 +16,7 @@ Take a tour, discover, learn, build and share !
 
 |Nom|Description|Date|Voir Plus|
 |-|-|-|-|
+|Ecole d'Eté sur l'Intelligence Artificielle (EEIA 2024)||20 Juillet - 17 Août 2024||
 |Projet de Soutenance de fin d'études universitaires|A l'issu d'un stage de 5 mois, j'ai présenté mon projet de soutenance devant un jury composé de 4 enseignants chercheurs au sein de mon institut. Ce projet a constitué un vrai levier pour mon accession au monde professionnel.|20 Juin 2024||
 |Talk à propos de la Roadmap du Web lors FODR-24|Présenter les outils principaux utilisés par les développeurs web dans leur avanture quotidienne.|17-18 Mai 2024|[Ressources](https://github.com/istmamou/cjp-web-roadmap/)|
 |Débutez avec le framework Django (OpenClassrooms)|Un cours pratique d'introduction à Djang. <br> Compétences acquises `python` `django` |30 Avril - 1er Mai 2024||
